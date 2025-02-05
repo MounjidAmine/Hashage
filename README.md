@@ -1,21 +1,20 @@
-# Projet : Analyse et Prédiction des Prix des Voitures d'Occasion
+# Projet : TP Hashage - Sécurisation des Données avec Algorithmes de Hachage
 
 ## Description
 
-Ce projet vise à analyser un ensemble de données sur les annonces de voitures d'occasion sur la plateforme Avito et à prédire le prix des véhicules en fonction de leurs caractéristiques. Il utilise des techniques de data science et de machine learning pour explorer les tendances du marché et optimiser la tarification.
+Ce projet consiste en un travail pratique sur les algorithmes de hachage, mettant en œuvre des techniques de protection des données via des fonctions de hachage sécurisées. L'objectif est d'explorer les méthodes de hachage courantes et d'évaluer leur efficacité en matière de sécurité informatique.
 
 ## Technologies Utilisées
 
 - **Langages** : Python
-- **Bibliothèques** : Pandas, Matplotlib, Seaborn, SciPy, Scikit-learn
-- **Machine Learning** : Modèles de régression et classification avec Scikit-learn
+- **Bibliothèques** : Hashlib, Bcrypt, CSV
 
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé les dépendances suivantes :
 
 ```bash
-pip install pandas matplotlib seaborn scipy scikit-learn
+pip install bcrypt
 ```
 
 ## Installation
@@ -23,13 +22,13 @@ pip install pandas matplotlib seaborn scipy scikit-learn
 Clonez ce dépôt sur votre machine locale :
 
 ```bash
-git clone https://github.com/votre-utilisateur/nom-du-depot.git
+git clone https://github.com/MounjidAmine/Hashage.git
 ```
 
 Accédez au dossier du projet :
 
 ```bash
-cd nom-du-depot
+cd Hashage
 ```
 
 ## Utilisation
@@ -37,15 +36,15 @@ cd nom-du-depot
 Ouvrez et exécutez le fichier Jupyter Notebook :
 
 ```bash
-jupyter notebook car_avito_Mounjid.ipynb
+jupyter notebook TP_HASHAGE_Mounjid.ipynb
 ```
 
 ## Exécution et Visualisation des Résultats
 
-- Chargement et nettoyage des données avec Pandas.
-- Visualisation des tendances du marché automobile avec Matplotlib et Seaborn.
-- Entraînement de modèles de machine learning pour prédire le prix des voitures.
-- Évaluation des performances des modèles avec des métriques adaptées.
+- Implémentation de différentes fonctions de hachage avec `hashlib`.
+- Utilisation de `bcrypt` pour des hachages sécurisés.
+- Stockage et manipulation des données hachées avec `CSV`.
+- Comparaison et évaluation des algorithmes de hachage.
 
 ## Contribution
 
@@ -56,13 +55,11 @@ Les contributions sont les bienvenues ! Pour contribuer :
 3. Faites vos modifications et committez (`git commit -m 'Ajout de la nouvelle fonctionnalité'`).
 4. Poussez votre branche (`git push origin feature/nouvelle-fonctionnalité`).
 
-## Licence
 
-Ce projet est sous licence [MIT](LICENSE).
 
 ## Auteur
 
-Ce projet a été réalisé par **Aqmine Mounjid**.
+Ce projet a été réalisé par **Amine Mounjid**.
 
 ---
 
